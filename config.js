@@ -3,11 +3,11 @@ var config = {
     // The following lines don't have to be 7 sentences, you can change it to 4 or 2 sentences too
     lines: [
         "My Joy",
-        "Thanks to you I now have a reason to always keep moving forward and improve everyday",
-        "You make me a better man",
-        "There's not enough words or enough code to explain how grateful I am",
-        "In this world and in the next i'll always be there for you just as you have been for me",
-        "I LOVE YOU"
+        "You gave me a reason to keep moving forward and to become better every day",
+        "You make me a better man simply by being you",
+        "There will never be enough words, or even enough code, to show how grateful I am for you",
+        "In this world and the next, I promise to always stand by you, just as you’ve always stood by me",
+        "I love you more than words can say"
     ],
     // The time you fell in love - remember the format cannot be wrong, it's very important
     // The format must be exactly like the time format below
