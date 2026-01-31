@@ -1,22 +1,21 @@
-// 霸都丶傲天 2019/7/9  https://Github.com/AJLoveChina
+// Creator: AJLoveChina 2019/7/9  https://Github.com/AJLoveChina
 var config = {
-    // 下面的句子不一定非要7句， 你也可以改成4句，2句话都可以
+    // The following lines don't have to be 7 sentences, you can change it to 4 or 2 sentences too
     lines: [
-        "亲爱的雯雯",
-        "花开一季，有落红为证",
-        "逝去的岁月，如何能托于烟尘",
-        "你的浅笑，是我永生眷恋",
-        "相思的真情，是否能明白一二",
-        "亲爱的宝贝，你是我的唯一",
-        "爱你永远。。。",
+        "My Joy",
+        "Thanks to you I now have a reason to always keep moving forward and improve everyday",
+        "You make me a better man",
+        "There's not enough words or enough code to explain how grateful I am",
+        "In this world and in the next i'll always be there for you just as you have been for me",
+        "I LOVE YOU"
     ],
-    // 相爱的时间 记住格式不能写错了, 非常重要
-    // 格式一定要和下面这个时间格式一样
-    // 分别是 年-月-日T时时:分分:秒秒
-    //      温馨警告:
-    //          1.时分秒都必须是俩个数字  比如 00:00:00
-    //          2.T不能丢了
+    // The time you fell in love - remember the format cannot be wrong, it's very important
+    // The format must be exactly like the time format below
+    // Separately: year-month-dayThour:minute:second
+    //      Warm reminder:
+    //          1. Hour, minute and second must be two digits, e.g. 00:00:00
+    //          2. Do not omit the T
     date: "2017-07-20T20:15:00",
-    // 双方的名字
-    names: ["笨笨熊", "黑猪猪"]
+    // Names of both people
+    names: ["Joy", "Njui"]
 }

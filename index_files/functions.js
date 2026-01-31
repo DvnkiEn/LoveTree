@@ -39,7 +39,7 @@ $(window).resize(function() {
 
 function timeElapse(date){
 	var seconds = (+ new Date() - date.getTime()) / 1000;
-	var days = Math.floor(seconds / (3600 * 24));
+	var days = 384;
 	seconds = seconds % (3600 * 24);
 	var hours = Math.floor(seconds / 3600);
 	if (hours < 10) {
@@ -52,6 +52,6 @@ function timeElapse(date){
 	}
 	seconds = Math.floor(seconds % 60);
 	seconds = (seconds + "").replace(/\.\d*/, "");
-	var result = "第 <span class=\"digit\">" + days + "</span> 天 <span class=\"digit\">" + hours + "</span> 小时 <span class=\"digit\">" + minutes + "</span> 分钟 <span class=\"digit\">" + seconds + "</span> 秒";
+	var result = "Day <span class=\"digit\">" + days + ": </span> <span class=\"digit\">" + hours + "</span> Hrs <span class=\"digit\">" + minutes + "</span> Mins <span class=\"digit\">" + seconds + "</span> Sec";
 	$("#clock").html(result);
 }

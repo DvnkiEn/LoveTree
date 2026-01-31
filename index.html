@@ -18,7 +18,12 @@
     <style type="text/css">
         <!--
         .STYLE1 {
-            color: #666666
+            color: #666666;
+            margin: 0 8px;
+        }
+        .name-spacing {
+            margin: 0 5px;
+            font-weight: bold;
         }
 
         -->
@@ -48,9 +53,9 @@
 </style>
 
 <div id="main">
-    <div id="error">本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(<a
-            href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a
-            href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。
+    <div id="error">This page uses HTML5 and cannot be displayed in your current browser. Please use Google (<a
+            href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>) or Mozilla (<a
+            href="http://firefox.com.cn/download/">Firefox</a>) browser, or the latest version of another browser.
     </div>
     <div id="wrap">
         <div id="text">
@@ -74,7 +79,7 @@
     }).reduce((a, b) => {
         return a + b;
     }))
-    $("#clock-box-inside-text").html(`${config.names[0]}<span class="STYLE1">与</span> ${config.names[1]}<span class="STYLE1">已经相恋了</span>`)
+    $("#clock-box-inside-text").html(`<span class="name-spacing">${config.names[0]}</span> <span class="STYLE1">and</span> <span class="name-spacing">${config.names[1]}</span> <span class="STYLE1">have been in love for</span>`)
 </script>
 
 <script>

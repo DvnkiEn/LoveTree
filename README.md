@@ -1,50 +1,50 @@
-## 爱情树
+## Love Tree
 
-> <b>修改config.js的配置就可以做一个属于自己的爱情树了,喜欢的话fork or star一下呗~</b>
+> <b>Modify the config.js configuration to create your own love tree. If you like it, please fork or star it~</b>
 
 <img src="https://github.com/AJLoveChina/loveBalloon/blob/master/static/github-star.png" />
 
-### config.js 说明
+### config.js Instructions
 ```text
 var config = {
-    // 下面的句子不一定非要7句， 你也可以改成4句，2句话都可以
+    // The following lines don't have to be 7 sentences, you can change it to 4 or 2 sentences too
     lines: [
-        "亲爱的雯雯",
-        "花开一季，有落红为证",
-        "逝去的岁月，如何能托于烟尘",
-        "你的浅笑，是我永生眷恋",
-        "相思的真情，是否能明白一二",
-        "亲爱的宝贝，你是我的唯一",
-        "爱你永远。。。",
+        "My dear sweetheart",
+        "Flowers bloom for a season, with fallen petals as proof",
+        "How can the years that have passed be entrusted to the dust",
+        "Your gentle smile is my eternal yearning",
+        "Can you understand even a little of my true feelings",
+        "My dear love, you are my one and only",
+        "I love you forever...",
     ],
-    // 相爱的时间 记住格式不能写错了, 非常重要
-    // 格式一定要和下面这个时间格式一样
-    // 分别是 年-月-日 时:分:秒
+    // The time you fell in love - remember the format cannot be wrong, it's very important
+    // The format must be exactly like the time format below
+    // Separately: year-month-day hour:minute:second
     date: "2017-07-20 20:15:0",
-    // 双方的名字
-    names: ["笨笨熊", "黑猪猪"]
+    // Names of both people
+    names: ["Silly Bear", "Black Pig"]
 }
 ```
 
-Tip:换背景音乐的话,只需要把 `index_files/music.mp3` 换成你自己的音乐即可, 但是不可以修改文件名称哦.
+Tip: To change the background music, simply replace `index_files/music.mp3` with your own music file, but do not change the file name.
 
-如果不想要音乐, 就把这个music.mp3文件删除.
+If you don't want music, just delete the music.mp3 file.
 
-## 截图演示
+## Screenshot Demo
 <img src="./index_files/love-tree.gif"/>
 
-## 知乎使用教程
-5分钟做一个免费的网页爱情树,快快学习发给自己的女朋友吧(微信QQ都可以查看哦)^_^ \
+## Tutorial
+Create a free love tree website in 5 minutes and share it with your loved one (works perfectly on WeChat and QQ)^_^ \
 https://zhuanlan.zhihu.com/p/72907840 
 
-## 结尾
-喜欢的话关注一下[霸都丶傲天](https://github.com/ajlovechina)呗~  \
-定期更新一下爱情网页模板,简历模板,知识笔记,PDF书籍,原创深度技术分享等 :heart:
+## Closing
+If you like it, please follow [AJLoveChina](https://github.com/ajlovechina) ~  \
+Regularly update love webpage templates, resume templates, knowledge notes, PDF books, original in-depth technical sharing and more :heart:
 
-* 知乎:[霸都丶傲天](https://www.zhihu.com/people/AJLoveChina)
-* Github:[霸都丶傲天](https://github.com/ajlovechina)
+* Zhihu: [AJLoveChina](https://www.zhihu.com/people/AJLoveChina)
+* Github: [AJLoveChina](https://github.com/ajlovechina)
 
-## 链接
-* [第一期:爱情树 🌴将相爱的时刻永远珍藏 （微信，QQ可完美查看）](https://github.com/AJLoveChina/LoveTree)
-* [第二期: :cake:改改数据,为心爱的人做一个超具创意的网页生日祝福吧~ (生日快乐)](https://github.com/AJLoveChina/birthday)
-* [第三期: :balloon:塞纳河畔，左岸的咖啡。告白气球，飞入我的心扉。](https://github.com/AJLoveChina/loveBalloon)
+## Links
+* [Part 1: Love Tree 🌴 Preserve your moments of love forever (Perfect on WeChat and QQ)](https://github.com/AJLoveChina/LoveTree)
+* [Part 2: :cake: Modify the data and create a creative birthday greeting webpage for your loved one~ (Happy Birthday)](https://github.com/AJLoveChina/birthday)
+* [Part 3: :balloon: By the Seine, on the left bank, coffee and confession balloons fly into my heart.](https://github.com/AJLoveChina/loveBalloon)
